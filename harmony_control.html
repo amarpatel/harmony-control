@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Harmony Control</title>
+
+    <!-- favicon -->
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAADR0dEAAAAAAKOMcgD///8AAwEAAHh1cwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQEBAQEBAQEBAQEBAQEAQQEAAAAAAAAAAAAAAAABAQEAAACAAUFBQUFBQAFAAAEBAAAAgAFAgUCBQIABQAABAQAAAAAAAAAAAAAAAAAAAQEAAAEBAQAAAAABAQEAAAEBAAEBQMFBAAABAUDBQQABAQABAMEAwQAAAQDBAMEAAQEAAQFAwUEAAAEBQMFBAAEBAAABAQEAAAAAAQEBAAABAQAAAAAAAAAAAAAAAAAAAQEBAACAgAAAAAAAAICAAQEBQQEBAQEBAQEBAQEBAQEBQUBBQEBAQEEBAEBAQEFAQUBAQUBAQEBBAQBAQEBBQEBAQEBAQEBAQQEAQEBAQEBAYABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeegAA3nsAAP5/AAA=" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+<div class="status">
+    <div class="status-content"></div>
+</div>
+
+<div class="container">
+    <h2 class="title">Connect Soundbar to Computer</h2>
+    <div class="button-container">
+        <button class="btn btn-lg btn-success" data-name="Computer > Sound Bar">On</button>
+        <button class="btn btn-lg btn-danger" data-name="!Computer > Sound Bar">Off</button>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="title">Play Xbox One</h2>
+    <div class="button-container">
+        <button class="btn btn-lg btn-success" data-name="xbox_activity_on">On</button>
+        <button class="btn btn-lg btn-danger" data-name="xbox_activity_off">Off</button>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="title">TV as Display</h2>
+    <div class="button-container">
+        <button class="btn btn-lg btn-success" data-name="tv_as_monitor_activity_on">On</button>
+        <button class="btn btn-lg btn-danger" data-name="tv_as_monitor_activity_off">Off</button>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="title">Watch Netflix on TV</h2>
+    <div class="button-container">
+        <button class="btn btn-lg btn-success" data-name="tv_netflix_activity_on">On</button>
+        <button class="btn btn-lg btn-danger" data-name="tv_netflix_activity_off">Off</button>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="title">Xbone on Monitor</h2>
+    <div class="button-container">
+        <button class="btn btn-lg btn-success" data-name="xbox_on_monitor_on">On</button>
+        <button class="btn btn-lg btn-danger" data-name="xbox_on_monitor_off">Off</button>
+    </div>
+</div>
+
+<script src="./node_modules/jquery/dist/jquery.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./helpers.js"></script>
+<script src="./index.js"></script>
+
+</body>
+</html>

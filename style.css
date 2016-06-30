@@ -1,0 +1,43 @@
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.button-container button {
+    width: 40%;
+    margin: 0.5rem;
+}
+
+.container {
+    padding-top: 20px;
+    margin-top: 1em;
+    max-width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button-container button a {
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
+.sent-message {
+    font-size: 40em;
+    color: blue;
+}
+
+.status {
+    text-align: center;
+    height: 85px;
+    overflow: hidden;
+}
+
+iframe {
+    opacity: 0;
+    height: 80px;
+    width: 420px;
+}

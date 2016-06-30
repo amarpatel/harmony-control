@@ -1,0 +1,23 @@
+{
+  "name": "harmony-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "harmony_control.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amarpatel/harmony-control.git"
+  },
+  "author": "Amar Patel <amarpatel@berkeley.edu> (http://www.amarpatel.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amarpatel/harmony-control/issues"
+  },
+  "homepage": "https://github.com/amarpatel/harmony-control",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.0.0"
+  }
+}
